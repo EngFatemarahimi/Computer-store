@@ -3,18 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Computer Store  </title>
+<title> Computer Store  </title> 
+<link rel="icon" href="images/favicon.ico" type="image/icon type">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"></script>
+    
+   <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
    <header>
-    <nav>
-        <ul> <li> <a href="index.html"> Home </a> </li></ul>
-        <ul> <li> <a href="./pages/about.html"> About</a></li></ul>
-        <ul> <li> <a href="./pages/services.html"> Services</a></li></ul>
-        <ul> <li> <a href="./pages/contact.html"> Contact</a> </li></ul>
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./images/007-laptop.png" alt="" width="40" height="28" class="d-inline-block align-text-top">CStore</a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/services.html">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/contact.html">Contact</a>
+              </li> 
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      </nav>
    </header>
-     <section id="1">
+
+     <section class="">
    <h1> Hi! This is your dream computer store</h1>
    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
      Inventore molestias nostrum non iusto quas illum ipsum laboriosam,
@@ -22,7 +53,7 @@
     Aliquam ipsum provident voluptas.</p>
     <img src="./images/a.jpg" alt=""   width="400" height="500">
 </section>
-     <h2>  About  computer stor </h2>
+     <h2>  About  computer store </h2>
      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
         Saepe quae fuga consequuntur aperiam, exercitationem velit libero asperiores fugiat nihil fugit impedit alias atque aspernatur? 
         Reprehenderit omnis dolore rerum asperiores quae.</p>
@@ -35,10 +66,36 @@
         <img src="./images/" alt="">
         <p> hgtyklgjk</p>
 
-        <footer>
-            <p> &copy; computer store </p>
-            <p> contact us : email </p>
-        </footer>
+        <footer class="text-white" style="background-image:url(images/footer.jpg);background-size:cover" >
+			<div class="container" style="margin:10px auto">
+				<div class="row">
+					<div class="col">
+						<img src="images/logo-dark.PNG" class="logo">
+						<br>
+						<br>
+						<p>
+						Address:267 Park Avenue New York, NY 90210
+						</p>
+						<p>
+						Email:<a href="#">info@demolink.org</a>
+						</p>
+						<a href=""> 
+								<i class="fa-brands fa-instagram text-white"></i> <i class="fa-brands fa-twitter text-white"></i> <i class="fa-brands fa-facebook text-white"></i> <i class="fa-brands fa-google text-white"></i>
+							</a>
+					</div>
+					
+					<div class="col">
+						<h2>NEWSLETTER</h2>
+						<form>
+							<input type="text" placeholder="Your Email" class="rounded"><br><br>
+							<button type="submit" class="rounded">SUBSCRIBE</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			
+			<div style="text-align:center">Quick Food &copy;2024 <a href="#" class="text-white">Privacy Policy</a></div>
+		</footer>
 
     
 </body>
