@@ -38,6 +38,7 @@ select{
 	-ms-transition: all 0.30s ease-in-out;
 	-o-transition: all 0.30s ease-in-out;
 	outline: none;	
+	
 }
 .form-style-1 input[type=text]:focus, 
 .form-style-1 input[type=date]:focus,
@@ -49,10 +50,11 @@ select{
 .form-style-1 input[type=email]:focus,
 .form-style-1 textarea:focus, 
 .form-style-1 select:focus{
-	-moz-box-shadow: 0 0 8px #88D5E9;
-	-webkit-box-shadow: 0 0 8px #88D5E9;
-	box-shadow: 0 0 8px #88D5E9;
-	border: 1px solid #88D5E9;
+	-moz-box-shadow: 0 0 10px #88D5E9;
+	-webkit-box-shadow: 0 0 10px #88D5E9;
+	box-shadow: 0 0 10px #88D5E9;
+	border: 2px solid #88D5E9;
+	width: 200px;
 }
 .form-style-1 .field-divided{
 	width: 49%;
@@ -81,4 +83,10 @@ select{
 }
 .form-style-1 .required{
 	color:red;
+}
+
+h3{
+	position:fixed;
+	
+
 }
