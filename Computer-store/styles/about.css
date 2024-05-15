@@ -1,0 +1,47 @@
+body{
+    font-family: baloo;
+}
+.slider-area{
+    background: #f2eeee;
+    padding: 30px 0;
+    position:relative;
+    margin: 60px 0;
+   
+}
+
+.carousel-control.left,
+.carousel-control.right{
+    background: transparent;
+}
+.img-area{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+.img-area img {
+    width: 200%;
+}
+.carousel-caption{
+    position: static;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+.carousel-caption h5{
+   font-size: 26px;
+   color: black;
+   margin-bottom: 15px;
+   margin-top: 25px;
+}
+.carousel-caption p{
+    font-size: 18px;
+   color: black;
+    margin: auto;
+    width: 70px;
+    margin-bottom: 10px;
+
+}

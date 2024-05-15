@@ -1,0 +1,18 @@
+body {
+margin: 0;
+padding: 0;
+
+}
+header{
+
+}
+
+.foot-er{
+    background-color: antiquewhite;
+    position: absolute;
+}
+.nav-item{
+   text-align: center;
+   justify-content: center;
+   
+}
