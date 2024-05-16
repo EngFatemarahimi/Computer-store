@@ -1,0 +1,99 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+    
+    font-family: baloo;
+}
+
+.slider  h2, p{
+    justify-content: center;
+    text-align: center;
+
+}
+.text h1 {
+    justify-content: center;
+    text-align: center;
+
+}
+.our h2 {
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+   
+}    
+.card{
+	height:100% !important;
+	background-color: #dedada !important;
+	box-shadow:0 4px 6px 6px #f9f9f9;
+	text-align:center;
+	margin:10px;
+	transition:transform 0.5s;
+	margin-top:10%;
+    margin-bottom: 10%;
+ }
+
+.card:hover{
+	transform:translateY(-10px);
+	}
+
+
+    .card .icon {
+        font-size: 3rem;
+        color: #2D9596;
+      }
+      
+      .card-text {
+        color: rgb(15, 17, 20);
+      }
+      
+      .card {
+        transition: all 0.5s;
+        transition: transform 0.3s ease;
+      }
+      
+      .card:hover {
+        background-color: hsl(180, 24%, 96%);
+        color: #fff;
+        transform: translateY(-3px);
+      }
+      
+      .card:hover .icon,
+      .card:hover .card-text {
+        color: #fff;
+      }
+    
+      .card-title
+      {
+        text-align: center;
+        font: size 1.8em;
+        font-weight: bold;
+        margin-top: 30px;
+        background-color: rgb(255, 255, 255);
+        color: black;
+        
+      }
+      
+      .card-titles
+      {
+        text-align: center;
+        font: size 1.8em;
+        font-weight: bold;
+        margin-top: 30px;
+        
+      }
+
+.card img{
+    width: 100%;
+}
+
+footer{
+    margin-top: 20px;
+    padding-top: 20px;
+
+    
+}
+
+
+
