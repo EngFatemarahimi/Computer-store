@@ -21,6 +21,12 @@ font-family: baloo;
     justify-content: center;
 }
 
+.col-sm-4 {
+    width:50%;
+	height:30%;
+    
+    padding: auto;
+}
 .card {
     width:90%;
 	height:130%;
