@@ -21,15 +21,16 @@ body{
     margin-top: 30px;
     padding-top: 20px;
    
-}
+}    
 .card{
 	height:100% !important;
-	background-color:#eef4f3 !important;
+	background-color: #dedada !important;
 	box-shadow:0 4px 6px 6px #f9f9f9;
 	text-align:center;
 	margin:10px;
 	transition:transform 0.5s;
 	margin-top:10%;
+    margin-bottom: 10%;
  }
 
 .card:hover{
