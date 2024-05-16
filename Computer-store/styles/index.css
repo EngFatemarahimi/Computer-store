@@ -6,7 +6,8 @@ font-family: baloo;
 }
 
 .card-bg{
-	padding:10%;
+	padding:10%;  
+    margin-bottom: 30px;
 }
 .text{
     text-align: center;
