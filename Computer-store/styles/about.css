@@ -99,8 +99,12 @@ i{
 
 
 footer{
+    
     background-color: #edefeaf0;
     position:relative;
     width: 100%;
+    text-align: center;
+    justify-content: center;
+
     
 }
