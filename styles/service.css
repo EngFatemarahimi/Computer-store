@@ -1,0 +1,57 @@
+ body{
+    font-family: baloo;
+ }
+
+.service{
+	
+	width:90%;
+	height:130%;
+    background-color: #dedada;
+    padding-bottom: 30px;
+}
+.gif{
+	width:120px;
+	height:100px;
+}
+.container{
+	margin:50px auto;
+}
+
+.card-bg{
+	padding:10%;
+}
+.text{
+    text-align: center;
+    justify-content: center;
+}
+.prices h1{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+                
+    
+}
+.card {
+    width:90%;
+	height:100%;
+    background-color: #dedada;
+    padding-bottom: 30px;
+   margin-left: 50px;
+   padding: 20px;
+  
+}
+.card-body{
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 5px;
+   
+}
+
+footer{
+    margin-top: 20px;
+    padding-top: 20px;
+
+    
+}
+
