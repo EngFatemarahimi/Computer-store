@@ -11,6 +11,16 @@ body{
     text-align: center;
 
 }
+
+.carousel-item img {
+    width: 95%;
+    height: 500px;
+    margin-left: 3%;
+}
+
+.col-md-4 .mn{
+  margin-left: 3%;
+}
 .text h1 {
     justify-content: center;
     text-align: center;
