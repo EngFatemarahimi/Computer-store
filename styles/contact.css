@@ -37,8 +37,8 @@ select{
 	-moz-transition: all 0.30s ease-in-out;
 	-ms-transition: all 0.30s ease-in-out;
 	-o-transition: all 0.30s ease-in-out;
-	outline: none;	
-	
+	outline: none;	 
+	        
 }
 .form-style-1 input[type=text]:focus, 
 .form-style-1 input[type=date]:focus,
